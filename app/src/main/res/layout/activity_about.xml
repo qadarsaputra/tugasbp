@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="#FE7e07">
+
+    <ImageView
+        android:id="@+id/fotoanak"
+        android:layout_width="109dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/read" />
+
+    <TextView
+        android:id="@+id/textaboutus"
+        android:layout_width="140dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:text="About Us"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fotoanak" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="370dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Lorem ipsum dolor sit amet lorem ipsum color sit colro amet lorom ipseumwihdwidh"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textaboutus" />
+
+    <TextView
+        android:id="@+id/textfindus"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="30dp"
+        android:text=" Find Us"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <ImageView
+        android:id="@+id/imagemaps"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfindus"
+        app:srcCompat="@drawable/baseline_location_on_24" />
+
+    <ImageView
+        android:id="@+id/imagebrowser"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfindus"
+        app:srcCompat="@drawable/baseline_language_24" />
+
+    <ImageView
+        android:id="@+id/imageviewcall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfindus"
+        app:srcCompat="@drawable/baseline_local_phone_24" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
